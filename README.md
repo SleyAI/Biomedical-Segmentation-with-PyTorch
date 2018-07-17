@@ -6,8 +6,12 @@ This project is part of my Bachelor Thesis and will be extended in the upcoming 
 
 ### Dataset
 
-[image]: etc/ytma12_010804_benign2_ccd.tif "Input" [image]: etc/ytma49_042003_malignant2_ccd.tif "Input" [image]: etc/ytma49_042203_malignant2_ccd.tif "Input"
-[mask]: etc/ytma12_010804_benign2.tif "Mask" [mask]: etc/ytma49_042003_malignant2.tif "Mask" [mask]: etc/ytma49_042203_malignant2.tif "Mask"
+[//]: # (Image References)
+
+[images_and_masks]: etc/images.png
+
+![alt text][images_and_masks]
+
 
 The code is tested on a biomedical breast cancer dataset which can't be provided due to data privacy.
 A very similar dataset can be found at [bioimage.ucsb.edu](https://bioimage.ucsb.edu/research/bio-segmentation)
