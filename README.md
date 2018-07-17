@@ -47,7 +47,7 @@ The code is based on Python 3.6
     ├── val                     # validation set
     ├── checkpoints             # checkpoints to store the model
 
-Data and Val folder need to contain a .txt file with filenames of the data. The "create_txt" script can be used to generate these.
+Data and Val folder needs to contain .txt files with filenames of the data. The "create_txt" script can be used to generate these.
 
 
 ### Usage
