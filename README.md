@@ -65,11 +65,11 @@ main.py
 predict.py
 ```
 -i	# input image to predict
--o	# file name of the output image
+-o	# filename of the output image
 -c	# GPU support is enabled by default. Use this parameter to predict on CPU
 ```
 
-There are some more parameters which can be useful
+There are some more parameters which can be useful.
 
 
 ### Evaluation
