@@ -64,6 +64,7 @@ main.py
 
 predict.py
 ```
+-m	# path to the pretrained model / checkpoint
 -i	# input image to predict
 -o	# filename of the output image
 -c	# GPU support is enabled by default. Use this parameter to predict on CPU
