@@ -1,1 +1,83 @@
-# Biomedical-Segmentation-with-PyTorch
+# Biomedical Segmentation with PyTorch
+
+Pixel-wise segmentation for biomedical images using [Pytorch][Pytorch]
+This project is part of my Bachelor Thesis and will be extended in the upcoming weeks.
+
+
+### Dataset
+
+[image]: etc/ytma12_010804_benign2_ccd.tif "Input" [image]: etc/ytma49_042003_malignant2_ccd.tif "Input" [image]: etc/ytma49_042203_malignant2_ccd.tif "Input"
+[mask]: etc/ytma12_010804_benign2.tif "Mask" [mask]: etc/ytma49_042003_malignant2.tif "Mask" [mask]: etc/ytma49_042203_malignant2.tif "Mask"
+
+The code is tested on a biomedical breast cancer dataset which can't be provided due to data privacy.
+A very similar dataset can be found at [bioimage.ucsb.edu](https://bioimage.ucsb.edu/research/bio-segmentation)
+Note: The images have a different size than the images I'm using. The network achitecture needs to be tuned a little bit to work with the data.
+
+
+### Architectures
+
+I will implement the following architectures:
+
+- [x] [UNet](https://arxiv.org/abs/1505.04597)
+- [ ] [SegNet](https://arxiv.org/abs/1511.00561)
+- [ ] [PSPNet](https://arxiv.org/abs/1612.01105)
+
+
+### Required packages
+
+```
+torch
+torchvision
+numpy
+PIL
+pydensecrf
+```
+
+The code is based on Python 3.6
+
+
+### Folder Structure
+
+	.
+    ├── data                    # training dataset
+    ├── val                     # validation set
+    ├── checkpoints             # checkpoints to store the model
+
+Data and Val folder need to contain a .txt file with filenames of the data. The "create_txt" script can be used to generate these.
+
+
+### Usage
+
+There are multiple parameters which can be used:
+
+main.py
+```
+-e	# number of epochs to train
+-l	# learning rate
+-g  # use this parameter to utilize your GPU
+-c  # load a pretrained model
+```
+
+predict.py
+```
+-i	# input image to predict
+-o	# file name of the output image
+-c  # GPU support is enabled by default. Use this parameter to predict on CPU
+```
+
+There are some more parameters which can be useful
+
+
+### Evaluation
+
+Further evaluation needs to be done in the future.
+For now the net reached a Accuracy of 87% (Dice Coefficient of 0.87) on a small validation set.
+
+
+### Some notes about hardware
+
+I'm using a Nvidia GTX 1070 (8GB VRAM) to train the net. The highest memory usage I could observe was about 5,5GB
+The size of the images is 510x512 which will be downscaled to 255x256. Downscaling even further will lower the memory needed.
+
+
+
