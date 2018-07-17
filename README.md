@@ -22,7 +22,7 @@ Note: The images have a different size than the images I'm using. The network ac
 
 I will implement the following architectures:
 
-- [x] [UNet](https://arxiv.org/abs/1505.04597)
+- [x] [U-Net](https://arxiv.org/abs/1505.04597)
 - [ ] [SegNet](https://arxiv.org/abs/1511.00561)
 - [ ] [PSPNet](https://arxiv.org/abs/1612.01105)
 
@@ -58,15 +58,15 @@ main.py
 ```
 -e	# number of epochs to train
 -l	# learning rate
--g  # use this parameter to utilize your GPU
--c  # load a pretrained model
+-g	# use this parameter to utilize your GPU
+-c	# load a pretrained model
 ```
 
 predict.py
 ```
 -i	# input image to predict
 -o	# file name of the output image
--c  # GPU support is enabled by default. Use this parameter to predict on CPU
+-c	# GPU support is enabled by default. Use this parameter to predict on CPU
 ```
 
 There are some more parameters which can be useful
