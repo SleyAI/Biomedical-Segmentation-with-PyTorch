@@ -1,6 +1,6 @@
 # Biomedical Segmentation with PyTorch
 
-Pixel-wise segmentation for biomedical images using [Pytorch][Pytorch]
+Pixel-wise segmentation for biomedical images using [Pytorch][Pytorch].
 This project is part of my Bachelor Thesis and will be extended in the upcoming weeks.
 
 
