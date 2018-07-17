@@ -81,7 +81,7 @@ For now the net reached a Accuracy of 87% (Dice Coefficient of 0.87) on a small 
 
 ### Some notes about hardware
 
-I'm using a Nvidia GTX 1070 (8GB VRAM) to train the net. The highest memory usage I could observe was about 5,5GB
+I'm using a Nvidia GTX 1070 (8GB VRAM) to train the net. The highest memory usage I could observe was about 5,5GB.
 The size of the images is 510x512 which will be downscaled to 255x256. Downscaling even further will lower the memory needed.
 
 Training took about 1 1/2 hours.
