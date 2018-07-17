@@ -76,7 +76,7 @@ There are some more parameters which can be useful.
 ### Evaluation
 
 Further evaluation needs to be done in the future.
-For now the net reached a Accuracy of 87% (Dice Coefficient of 0.87) on a small validation set.
+For now the net reached an Accuracy of 87% (Dice Coefficient of 0.87) on a small validation set.
 
 
 ### Some notes about hardware
