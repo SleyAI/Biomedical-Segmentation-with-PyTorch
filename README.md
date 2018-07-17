@@ -84,4 +84,4 @@ I'm using a Nvidia GTX 1070 (8GB VRAM) to train the net. The highest memory usag
 The size of the images is 510x512 which will be downscaled to 255x256. Downscaling even further will lower the memory needed.
 
 
-
+[Pytorch]: http://pytorch.org
