@@ -8,7 +8,7 @@ This project is part of my Bachelor Thesis and will be extended in the upcoming 
 
 [//]: # (Image References)
 
-[images_and_masks]: etc/images.png
+[images_and_masks]: etc/Images.png
 
 ![alt text][images_and_masks]
 
