@@ -15,7 +15,7 @@ This project is part of my Bachelor Thesis and will be extended in the upcoming 
 
 The code was tested on a biomedical breast cancer dataset which can't be provided due to data privacy.
 A very similar dataset can be found at [bioimage.ucsb.edu](https://bioimage.ucsb.edu/research/bio-segmentation)
-Note: The images have a different size than the images I'm using. The network achitecture needs to be tuned a little bit to work with the data.
+Note: The images have a different size than the images I'm using. The network achitecture (reshaping of tensors, padding after each convolution) needs to be tuned a little bit to work with the data.
 
 
 ### Architectures
