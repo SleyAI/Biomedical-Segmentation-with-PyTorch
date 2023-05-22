@@ -20,11 +20,9 @@ Note: The images have a different size than the images I'm using. The network ac
 
 ### Architectures
 
-I will implement the following architectures:
+I have implemented the following architecture:
 
 - [x] [U-Net](https://arxiv.org/abs/1505.04597)
-- [ ] [SegNet](https://arxiv.org/abs/1511.00561)
-- [ ] [PSPNet](https://arxiv.org/abs/1612.01105)
 
 
 ### Required packages
